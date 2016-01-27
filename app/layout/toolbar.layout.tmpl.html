@@ -1,0 +1,13 @@
+<header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+
+        <span class="mdl-layout-title">{{vm.title}}</span>
+
+        <div class="mdl-layout-spacer"></div>
+
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+            <a class="mdl-navigation__link toolbar-links" ng-repeat="link in vm.links" ng-click="vm.clickLink(link)">{{link.name}}</a>
+        </nav>
+
+    </div>
+</header>

@@ -1,0 +1,8 @@
+{
+  "name": "Client Prototype Skeleton Angular",
+  "dependencies": {
+    "angular": "~1.4.8",
+    "angular-ui-router": "~0.2.15",
+    "material-design-lite": "~1.0.6"
+  }
+}
